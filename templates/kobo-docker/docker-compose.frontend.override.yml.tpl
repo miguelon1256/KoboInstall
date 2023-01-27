@@ -53,7 +53,7 @@ services:
       ${ADD_BACKEND_EXTRA_HOSTS}- mongo.${PRIVATE_DOMAIN_NAME}:${PRIMARY_BACKEND_IP}
       ${ADD_BACKEND_EXTRA_HOSTS}- redis-main.${PRIVATE_DOMAIN_NAME}:${PRIMARY_BACKEND_IP}
       ${ADD_BACKEND_EXTRA_HOSTS}- redis-cache.${PRIVATE_DOMAIN_NAME}:${PRIMARY_BACKEND_IP}
-      - "support.mi-entidad.gob.bo dashboard.mi-entidad.gob.bo:192.168.5.151"
+      - "support.mmaya.gob.bo dashboards.mmaya.gob.bo:192.168.5.151"
     ${USE_BACKEND_NETWORK}networks:
     ${USE_BACKEND_NETWORK}  kobo-be-network:
     ${USE_BACKEND_NETWORK}    aliases:
